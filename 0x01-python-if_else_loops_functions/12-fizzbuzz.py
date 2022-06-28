@@ -2,7 +2,7 @@
 # 12-fizzbuzz.py
 # Haile2723
 def fizzbuzz():
-    for i in range(1, 101)
+    for i in range(1, 101):
         if i = abs(i) % 3 == 0:
             print("Fizz ", end="")
         elif i = abs(i) % 5 == 0:
@@ -11,3 +11,4 @@ def fizzbuzz():
             print("FizzBuzz ", end="")
         else:
             print("{} ".format(i), end="")
+
