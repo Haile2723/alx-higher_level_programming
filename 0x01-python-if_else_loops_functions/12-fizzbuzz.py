@@ -4,9 +4,11 @@
 def fizzbuzz():
     for i in range(1, 101, 1):
         print("{}".format(i), end=" ")
-        if i = abs(i) % 3:
-            print("Fizz")
-        elif i = abs(i) % 5:
-            print("Buzz")
-        elif i = abs(i) % 15:
-            print("FizzBuzz")
+        if i = abs(i) % 3 == 0:
+            print("Fizz ", end="")
+        elif i = abs(i) % 5 == 0:
+            print("Buzz ", end="")
+        elif i = abs(i) % 15 == 0:
+            print("FizzBuzz ", end="")
+        else:
+            print("{} ".format(i), end="")
