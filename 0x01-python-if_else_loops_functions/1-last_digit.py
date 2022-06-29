@@ -9,5 +9,5 @@ if number < 0:
         print("greater than 5")
     elif x == 0:
         print("0")
-    elif x is not 6 and x is not 0:
+    else:
         print("less than 6 and not 0")
