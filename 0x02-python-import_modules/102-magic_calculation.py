@@ -3,6 +3,7 @@
 # Haile2723
 
 def magic_calculation(a, b):
+    """Match bytecode provided by alx school"""
     from magic_calculation_102 import add, sub
 
     if a<b:
