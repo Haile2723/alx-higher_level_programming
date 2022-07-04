@@ -4,7 +4,5 @@
 
 
 def no_c(my_string):
-
-    for x in my_string:
-        if x != 'c' and x != 'C':
-            return (my_string)
+    copy = [x for x in my_string if x != 'c' and x != 'C']
+    return ("".join(copy))
